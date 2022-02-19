@@ -1,4 +1,4 @@
-.studio {
+.footer__first {
   width: 231px;
 }
 
@@ -15,7 +15,7 @@
   background-color: var(--footer-color);
 }
 
-.logo-footer {
+.footer__logo {
   display: block;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -60,16 +60,16 @@
   }
 }
 
-.text-footer {
-  font-weight: bold;
+.footer-social__text {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   color: var(--two-text-color);
   margin-bottom: 20px;
 }
 
-.footer-social-link {
+.footer-social__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -86,39 +86,39 @@
   }
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
 }
 
-.footer-social-item + .footer-social-item {
+.footer-social__item + .footer-social__item {
   margin-left: 10px;
 }
 
-.footer-icon {
+.footer-social__icon {
   fill: currentColor;
 }
 
-.second-footer-div {
+.footer-social {
   margin-left: 70px;
 }
 
-.first-footer-div {
+.footer__content {
   display: flex;
   align-items: baseline;
 }
 
 /* ФОРМА В ФУТЕРЕ */
 
-.three-footer-div {
+.footer-form {
   margin-left: 93px;
 }
 
-.three-footer {
+.footer-form__form {
   display: flex;
   align-items: center;
 }
 
-.form-title {
+.footer-form__title {
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -128,7 +128,7 @@
   margin-bottom: 20px;
 }
 
-.footer-input {
+.footer-form__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -145,7 +145,7 @@
   }
 }
 
-.footer-form-btn {
+.footer-form__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -171,7 +171,7 @@
   }
 }
 
-.footer-modal-icon {
+.footer-form__icon {
   fill: var(--two-text-color);
   margin-left: 10px;
 }
