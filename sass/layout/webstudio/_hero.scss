@@ -15,7 +15,7 @@
 .hero__title {
   color: var(--two-text-color);
   font-size: 44px;
-  line-height: 1.36;
+  line-height: calc(60 / 44);
   font-weight: 900;
   text-align: center;
   letter-spacing: 0.06em;

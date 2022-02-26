@@ -1,5 +1,5 @@
 .footer__first {
-  width: 231px;
+  flex-grow: 1;
 }
 
 .footer-section {
@@ -15,15 +15,19 @@
   background-color: var(--footer-color);
 }
 
-.footer__logo {
+.logo__footer {
   display: block;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--two-text-color);
+  color: var(--accent-color);
   margin-bottom: 20px;
+}
+
+.logo__white {
+  color: var(--two-text-color);
 }
 
 .address__link {
